@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "value": "Tại quầy",
+          "label": "Tại quầy"
+        },
+        {
+          "label": "Online",
+          "value": "Online"
+        }
+      ],
+      "label": "Phương thức thanh toán",
+      "type": "radio",
+      "id": "Field_1afhqsj",
+      "key": "payment",
+      "defaultValue": "Tại quầy",
+      "validate": {
+        "required": true
+      },
+      "disabled": false,
+      "properties": {
+        "key1": "value"
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Thanh Toán",
+      "type": "button",
+      "id": "Field_11k0o1i",
+      "key": "field_0tsuv3b"
+    }
+  ],
+  "type": "default",
+  "id": "yeucauthanhtoanformId",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}
