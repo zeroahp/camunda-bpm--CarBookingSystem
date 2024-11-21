@@ -36,10 +36,10 @@
           <text>payment</text>
         </inputExpression>
         <inputValues id="UnaryTests_0ne2gm3">
-          <text>"Tại Quầy","Online"</text>
+          <text>"Tiền mặt","Chuyển khoản ngân hàng"</text>
         </inputValues>
       </input>
-      <output id="Output_1" label="Tổng tiền" name="totalCost" typeRef="string">
+      <output id="Output_1" label="Tổng tiền" name="totalcost" typeRef="string">
         <outputValues id="UnaryTests_14vz8zq">
           <text>"165.000","320.000","180.000","250.000"</text>
         </outputValues>
@@ -55,13 +55,13 @@
           <text>"0h - 5h"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_00sk6st">
-          <text>0</text>
+          <text>5</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0v7rv9u">
-          <text>"Tại Quầy","Online"</text>
+          <text>"Tiền mặt","Chuyển khoản ngân hàng"</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_01lds2t">
-          <text>"0"</text>
+          <text>"180.000"</text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_1cjiz94">
@@ -78,7 +78,7 @@
           <text>10</text>
         </inputEntry>
         <inputEntry id="UnaryTests_18ice1b">
-          <text>"Tại Quầy","Online"</text>
+          <text>"Tiền mặt","Chuyển khoản ngân hàng"</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0t9u7yc">
           <text>"180.000"</text>

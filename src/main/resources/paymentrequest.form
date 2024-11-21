@@ -3,12 +3,16 @@
     {
       "values": [
         {
-          "value": "Tại quầy",
-          "label": "Tại quầy"
+          "value": "Tiền mặt",
+          "label": "Tiền mặt"
         },
         {
-          "label": "Online",
-          "value": "Online"
+          "label": "Chuyển khoản ngân hàng",
+          "value": "Chuyển khoản ngân hàng"
+        },
+        {
+          "label": "Không thanh toán",
+          "value": "Không thanh toán"
         }
       ],
       "label": "Phương thức thanh toán",
@@ -26,7 +30,7 @@
     },
     {
       "action": "submit",
-      "label": "Thanh Toán",
+      "label": "Xác nhận",
       "type": "button",
       "id": "Field_11k0o1i",
       "key": "field_0tsuv3b"

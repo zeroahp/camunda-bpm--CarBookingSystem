@@ -10,14 +10,14 @@ public class truyxuatxeconghetrong implements JavaDelegate {
         String busroute = (String) execution.getVariable("busroute");
         String phonenumber = (String) execution.getVariable("phonenumber");
         String shedule = (String) execution.getVariable("schedule");
-        System.out.println("Xin chao: " +username);
+        System.out.println("Xin chào: " +username);
         if(shedule.equals("0h-5h") || shedule.equals("Không chọn") ){
             execution.setVariable("quantity",0);
         }else {
             execution.setVariable("quantity",10);
         }
-        System.out.println("Ban da chon loai xe: " +busType + ", cho tuyen duong: " + busroute);
-        System.out.println("Khung gio: " + shedule);
+        System.out.println("Bạn đã chọn loại xe: " +busType + ", cho tuyến đường: " + busroute);
+        System.out.println("Khung giờ: " + shedule);
 
 
     }

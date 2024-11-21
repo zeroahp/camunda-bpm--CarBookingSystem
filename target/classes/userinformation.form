@@ -93,7 +93,7 @@
       "label": "Tuyến xe",
       "type": "select",
       "id": "Field_1jqcvv4",
-      "key": "bustroute",
+      "key": "busroute",
       "validate": {
         "required": true
       },
